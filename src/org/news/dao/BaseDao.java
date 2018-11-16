@@ -26,6 +26,11 @@ public class BaseDao {
         try {
         	
         	System.out.println("提交成功");
+        	System.out.println("提交成功");
+        	System.out.println("提交成功");
+        	System.out.println("提交成功");
+        	System.out.println("提交成功");
+        	System.out.println("提交成功");
             Class.forName(driver);
         } catch (ClassNotFoundException e) {
             // TODO Auto-generated catch block
