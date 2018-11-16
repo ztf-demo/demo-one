@@ -15,6 +15,7 @@ public class NewsUserImpl extends BaseDao implements NewsUserDao {
     public int insert(NewsUser newsUser) {
         int result = 0;
         try {
+        	System.out.println("是否提交成功！");
             String sql = "INSERT INTO `NEWS_USERS`(`uname`, `upwd`) VALUES(?, ?)";
             result = this.executeUpdate(sql, newsUser.getUname(),
                     newsUser.getUpwd());
